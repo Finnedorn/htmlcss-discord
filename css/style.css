@@ -43,11 +43,19 @@ li>a {
     margin: 0 30px;
 }
 
-
+/*buttons-n'-text*/
 
 .button-icon {
-    padding: 5px;
+    padding: 10px;
     border-radius: 30px;
+}
+
+.access-button {
+    font-size: 0.8rem;
+}
+
+.hero-button {
+    font-size: 0.9rem;
 }
 
 .button-padding {
