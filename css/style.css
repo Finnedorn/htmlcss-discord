@@ -132,7 +132,7 @@ li>a {
 
 .box-flex-03 {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     align-items: center;
     justify-content: center;
 }
@@ -260,6 +260,8 @@ div.item-box-04>img {
   margin-right: auto;
 }
 
+/*box-05*/
+
 .text-box-05 {
     text-align: center;
 }
@@ -270,6 +272,10 @@ div.item-box-04>img {
     background-repeat: no-repeat;
     width: 800px;
     padding: 30px;
+}
+
+div.section-box.box-flex-03 {
+    padding-bottom: 150px;
 }
 
 /*footer*/
