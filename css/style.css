@@ -8,6 +8,8 @@
     font-size: 20px;
 }
 
+/*palette*/
+
 :root {
 	--color-bg-white: #ffffff;
     --color-bg-icon-black: #23272a;
@@ -16,6 +18,8 @@
 	--color-icon-text-blue: #7289da;
 	--color-icon-text-white: #ffffff;
 }
+
+/*miscellaneous*/
 
 .debug {
     border: 1px solid black;
@@ -301,7 +305,6 @@ footer {
 li>h3 {
     font-size: 0.7rem;
 }
-
 
 #flag-icon {
     width: 20px;
