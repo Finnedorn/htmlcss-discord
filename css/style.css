@@ -1,0 +1,168 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Linear B', sans-serif;
+    font-size: 20px;
+}
+
+:root {
+	--color-bg-white: #ffffff;
+    --color-bg-icon-black: #23272a;
+    --color-section-bg-grey: #f6f6f6;
+	--color-section-bg-blue: #2a5ee8;
+	--color-icon-text-blue: #7289da;
+	--color-icon-text-white: #ffffff;
+}
+
+.debug {
+    border: 1px solid black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--color-icon-text-white);
+    display: block;
+    padding: 6px 10px;
+    text-decoration: none;
+}
+
+li>a {
+    font-size: 0.8rem;
+    margin: 0 30px;
+}
+
+
+
+.button-icon {
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.button-padding {
+    padding-right: 20px;
+}
+
+.button-color-white {
+    background-color: var(--color-bg-white);
+}
+
+.button-color-black {
+    background-color: var(--color-bg-icon-black);
+}
+
+.button-color-blue {
+    background-color: var(--color-icon-text-blue);
+}
+
+.text-black {
+    color: var(--color-bg-icon-black);
+}
+
+.text-white {
+    color: var(--color-bg-white);
+}
+
+
+/*flex-utility*/
+
+.d-flex  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.f-center {
+    justify-content: center;
+}
+
+.button-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; 
+    align-items: center;
+    align-content: center;
+}
+
+/*header*/
+
+header {
+    background-color: var(--color-section-bg-blue);
+}
+
+.nav-margin {
+    margin-top: 30px;
+}
+
+
+#hero {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+#hero .container {
+    min-height: 500px;
+}
+
+.hero-text {
+    color: var(--color-bg-white);
+    text-align: center;
+}
+
+div.hero-text>h1 {
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+div.hero-text>p {
+    font-size: 0.9rem;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*main*/
+
+.main-section {
+    padding: 60px;
+}
+
+.even {
+    background-color: var(--color-section-bg-grey);
+}
+
+/*footer*/
+
+footer {
+    background-color: var(--color-bg-icon-black);
+    color: var(--color-icon-text-white);
+}
+
+
+
+
+
+
+
+/* <i class="fa-solid fa-arrow-down"></i> */
