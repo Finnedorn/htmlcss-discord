@@ -118,10 +118,15 @@ li>a {
     align-content: center;
 }
 
+.section-flex-01 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
 .icon-social-flex {
     display: flex;
     flex-flow: column wrap;
-   
 }
 
 .footer-flex  {
@@ -176,6 +181,30 @@ div.hero-text>p {
 
 /*main*/
 
+.section-box {
+    padding: 30px 0 30px 0;
+}
+
+.item-box-01 {
+    width: calc(100% / 2 + 20%);
+    padding: 30px 0px 100px 150px;
+}
+
+div.item-box-01>img {
+    width: 600px;
+}
+
+.text-box-01 {
+    padding: 40px 110px 40px 0;
+}
+
+div.text-box-01>h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    
+}
+
+
 .even {
     background-color: var(--color-section-bg-grey);
 }
@@ -220,5 +249,3 @@ li>h3 {
     padding-bottom: 20px;
 }
 
-
-/* <i class="fa-solid fa-arrow-down"></i> */
