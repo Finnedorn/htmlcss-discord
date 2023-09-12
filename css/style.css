@@ -63,6 +63,7 @@ li>a {
     font-size: 0.7rem;
 }
 
+
 /*buttons-n'-text*/
 
 div[class*="button-icon"]:hover {
@@ -374,6 +375,44 @@ select {
 
 
 
-/*nitropage*/
+/*blog-page*/
 
+.banner-blue {
+    background-color: var(--color-section-bg-blue);
+    min-height: 500px;
+}
 
+.blog-nav-wrapper {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px 5px;
+}
+
+.blog-nav-logo {
+    width: 70%;
+}
+
+div.blog-nav-logo>img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.blog-nav-box {
+    width: 30%;
+    padding: 0 0 5px 5px;
+}
+
+div.blog-nav-box>h4 {
+    color: var(--color-bg-white);
+    vertical-align: middle;
+}
+
+input[type="search"] {
+    background-color: var(--color-section-bg-blue);
+    border-radius: 30px;
+    border: 2px solid var(--color-bg-white);
+    width: 150px;
+    background-image: url(../img/magnifying-glass-solid.svg);
+    background-repeat: no-repeat;
+    
+}
