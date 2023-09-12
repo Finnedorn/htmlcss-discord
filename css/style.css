@@ -154,6 +154,10 @@ li>a {
 
 /*header*/
 
+#download header {
+    background-color: var(--color-bg-icon-black);
+}
+
 header {
     background-color: var(--color-section-bg-blue);
 }
