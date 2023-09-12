@@ -139,19 +139,19 @@ div[class*="button-icon"]:hover {
     align-content: center;
 }
 
-.box-flex-01 {
+.box-flex-type-a {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
 }
 
-.box-flex-02 {
+.box-flex-type-b {
     display: flex;
     flex-flow: row-reverse nowrap;
     align-items: center;
 }
 
-.box-flex-03 {
+.box-flex-type-c {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -256,57 +256,57 @@ div.wave-specular>img {
     opacity: 0.03;
 }
 
-/*box-01*/
+/*first-box*/
 
-.item-box-01 {
+.img-first-box {
     width: 60%;
     padding: 60px 0px 100px 150px;
 }
 
-.text-box-01 {
+.text-first-box {
     width: 40%;
     padding: 40px 110px 40px 0;
 }
 
-/*box-02*/
+/*second-box*/
 
-.item-box-02 {
+.img-second-box {
     width: 60%;
     padding: 30px 80px 100px 0;
 }
 
-.text-box-02 {
+.text-second-box {
     width: 40%;
     padding:0px 0px 150px 180px;
 }
 
-/*box-03*/
+/*third-box*/
 
-.text-box-03 {
+.text-third-box {
     width: 40%;
     padding: 10px 40px 120px 0;
 }
 
-/*box-04*/
+/*fourth-box*/
 
-.text-box-04 {
+.text-fourth-box {
     text-align: center;
 }
 
-.item-box-04 {
+.img-fourth-box {
    padding: 30px;
 }
 
-div.item-box-04>img {
+div.img-fourth-box>img {
     width: 1000px;
     display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/*box-05*/
+/*fifth-box*/
 
-.text-box-05 {
+.text-fifth-box {
     text-align: center;
 }
 
@@ -412,7 +412,4 @@ input[type="search"] {
     border-radius: 30px;
     border: 2px solid var(--color-bg-white);
     width: 150px;
-    background-image: url(../img/magnifying-glass-solid.svg);
-    background-repeat: no-repeat;
-    
 }
