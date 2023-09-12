@@ -220,6 +220,25 @@ div>img {
     
 }
 
+/*background-wave*/
+
+div.wave>img {
+    display: block;
+}
+
+.wave {
+    opacity: 0.03;
+}
+
+div.wave-specular>img {
+    display: block;
+    transform: scale(-1 , -1);
+}
+
+.wave-specular {
+    opacity: 0.03;
+}
+
 /*box-01*/
 
 .item-box-01 {
