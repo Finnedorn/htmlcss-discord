@@ -55,7 +55,7 @@ a[class*="button"]:hover {
     text-decoration: none;
 }
 
-a.button-color-white:hover {
+a.text-black:hover {
     color: var(--color-icon-text-blue);
 }
 
