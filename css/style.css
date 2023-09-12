@@ -31,7 +31,7 @@
     padding: 0 5px;
 }
 
-ul {
+li {
     list-style: none;
 }
 
@@ -347,6 +347,7 @@ li>h3 {
 
 #flag-icon {
     width: 20px;
+    margin-right: 5px;
 }
 
 .social-icon {
@@ -359,4 +360,16 @@ li>h3 {
     border-top: 2px solid var(--color-icon-text-blue);
     padding-bottom: 20px;
 }
+
+select {
+    background-color: var(--color-bg-white);
+    color: var(--color-bg-icon-black);
+    border-radius: 10px;
+    padding:2px;
+}
+
+#select-box {
+    padding: 10px;
+}
+
 
