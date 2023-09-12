@@ -47,6 +47,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    
+}
+
 li>a {
     font-size: 0.7rem;
 }
