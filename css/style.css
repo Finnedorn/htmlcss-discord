@@ -48,7 +48,15 @@ a {
 }
 
 a:hover {
-    
+    text-decoration: underline;
+}
+
+a[class*="button"]:hover {
+    text-decoration: none;
+}
+
+a.button-color-white:hover {
+    color: var(--color-icon-text-blue);
 }
 
 li>a {
@@ -56,6 +64,10 @@ li>a {
 }
 
 /*buttons-n'-text*/
+
+div[class*="button-icon"]:hover {
+    box-shadow: -5px 10px 25px rgba(54, 54, 54, 0.342);
+}
 
 .button-icon {
     padding: 10px;
