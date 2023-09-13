@@ -177,10 +177,17 @@ div[class*="button-icon"]:hover {
 
 header {
     background-color: var(--color-section-bg-blue);
+    color: var(--color-bg-white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 .padding-nav {
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .nav-a-margin {
@@ -188,6 +195,7 @@ header {
 }
 
 #hero {
+    padding-top: 70px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
